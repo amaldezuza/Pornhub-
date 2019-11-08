@@ -1,18 +1,9 @@
 {
-  "name": "PornHub",
-  "description": "Only For Legends..... By : @r4v4n4",
+  "name": "Uniborg",
+  "description": "Only For Legends...",
   "logo": "https://telegra.ph/file/18cea3a9a7d9b3261dc1a.jpg",
-  "keywords": [
-    "sex",
-    "porn",
-    "xxx",
-    "dick",
-    "vagina",
-    "boobs"
-  ],
   "repository": "https://gitlab.com/SpEcHiDe/UniBorg",
   "website": "https://telegram.dog/UniBorg",
-  "success_url": "https://telegram.dog/r4v4n4",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable environment variables.",
@@ -50,7 +41,7 @@
     },
     "TMP_DOWNLOAD_DIRECTORY": {
       "description": "This is required for the plugins involving the file system.",
-      "value": "./ravana/",
+      "value": "./Download/",
       "required": false
     },
     "IBM_WATSON_CRED_URL": {
@@ -73,7 +64,6 @@
     },
     "TELEGRAPH_SHORT_NAME": {
       "description": "This is required for the @telegraph functionality.",
-      "value": "LUCIFERTHEKING",
       "required": false
     },
     "OCR_SPACE_API_KEY": {
@@ -128,7 +118,6 @@
     },
     "SUDO_USERS": {
       "description": "Makes Your Account Stable.",
-      "value": "138312364",
       "required": false
     },
     "TZ": {
