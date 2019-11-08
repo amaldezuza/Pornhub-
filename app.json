@@ -41,7 +41,7 @@
     },
     "TMP_DOWNLOAD_DIRECTORY": {
       "description": "This is required for the plugins involving the file system.",
-      "value": "./Download/",
+      "value": "./DOWNLOADS/",
       "required": false
     },
     "IBM_WATSON_CRED_URL": {
